@@ -1,0 +1,165 @@
+/* CSS Document */
+/*hlavní bloky stránek */
+body {
+  background-color: #342377;
+}
+
+#cely {
+  position: relative;
+  margin: auto;
+  padding: 1.05%;
+  width: 52.5%;
+  font-family: sans-serif;
+  color: #342377;
+  background-color: white;
+}
+
+#hlava {
+  position: relative;
+  margin: 0%;
+  padding-bottom: 0.2%;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #342377;
+}
+
+#leva_hlava {
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  width: 26%;
+  height: 100px;
+  background-image: url("graficke_soubory/logo.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+
+#prava_hlava {
+  position: relative;
+  margin-left: 27%;
+  padding: 0%;
+  width: 73%;
+  height: 100px;
+  background-image: url("graficke_soubory/prava_hlava.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+#sloupce {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("graficke_soubory/sloupce.gif");
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#levy {
+  position: relative;
+  width: 20%;
+  margin: 0px;
+  padding: 5px;
+  float: left;
+}
+
+#stred {
+  position: relative;
+  left: 1%;
+  width: 50%;
+  margin: 0%;
+  padding: 2%;
+  float: left;
+  font-size: 1rem;
+}
+
+#pravy {
+  position: relative;
+  width: 20%;
+  margin-left: 80%;
+  padding: 1.5%;
+  color: white;
+}
+
+#clearblok {
+  clear: both;
+}
+
+#pata {
+  position: relative;
+  top: 20px;
+  text-align: right;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0px 0px 1% 0px;
+}
+
+/*navigace*/
+#levy ul {
+  position: relative;
+  padding: 0%;
+  margin: 0%;
+}
+
+#levy ul li {
+  list-style-type: none;
+}
+
+#levy ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+#levy ul li ul {
+  display: none;
+  position: absolute;
+  margin-left: 7%;
+  top: 2%;
+}
+
+#levy ul li:hover ul {
+  display: block;
+}
+
+/*zbylé nastavení vzhledu*/
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0%;
+  margin: 0px 0px 1% 0px;
+  color: #342377;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px 0px 1% 0px;
+}
+
+#pravy a {
+  color: white;
+}
+
+#stred a {
+  color: #342377;
+}
+
+p {
+  text-indent: 1%;
+  margin-top: 1%;
+  text-align: justify;
+}
+
+@media screen and (max-width:800px) {
+  #hlava {
+    position: relative;
+    float: left;
+  }
+}
